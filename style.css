@@ -966,6 +966,12 @@ button.button-primary:focus {
   pointer-events: auto;
 }
 
+@media (max-width: 700px) {
+  body {
+    background-size: cover;
+    background-image: url("/images/mobile-welcome-screen.png");
+  }
+}
 .section-nav {
   padding-left: 0;
 }
